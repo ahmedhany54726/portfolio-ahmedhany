@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 158, 78);
+   background-size: contain;
+   background-attachment: scroll;
+} 
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-style: oblique;
+}
+
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+.a1{
+ margin-right:100%;
+ border-radius: 50%;
+ 
+}
+@media(max-width:1000px){
+}
+    section{
+        padding: 100px 18%;
+    }
+    .home{
+        height: auto;
+    }
+    .home-img img{
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+    
+    }
+    :root{
+        --h1-font: 2.1rem;
+    }
+    .media{
+       font-size: xx-large;
+     
+
+    }
+    
